@@ -1,5 +1,5 @@
 ---
-title: "B.3. ~ B.6. initialize, run_strategy, make_orders, Order 작성"
+title: "B.3 ~ B.6 initialize, run_strategy, make_orders, Order 작성"
 date: 2019-02-25 17:08:34 -0400
 categories: catslab backtest initialize, run_strategy, make_orders, Order 
 ---

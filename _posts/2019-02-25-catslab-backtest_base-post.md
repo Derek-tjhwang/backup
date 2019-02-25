@@ -1,12 +1,12 @@
 ---
-title: "B.0. Backtest 기본"
+title: "B.0 Backtest 기본"
 date: 2019-02-25 16:48:59 -0400
 categories: catslab backtest
 ---
 
 ## B.0. Backtest 기본
 
-__B.0. COZA package 및 필요한 모듈 및 함수 import__
+__B.0. COZA package 및 필요한 모듈 및 함수 import__  
 
 
 * 필수 
