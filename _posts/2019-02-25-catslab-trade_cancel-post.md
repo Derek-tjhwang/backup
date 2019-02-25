@@ -4,7 +4,7 @@ date: 2019-02-25 16:15:21 -0400
 categories: catslab trade others
 ---
 
-##A.9. set_cancel 함수의 사용과 사용 예시
+## A.9. set_cancel 함수의 사용과 사용 예시
 
 거래소에 전송한 주문 중 미체결 주문들을 취소할 때 사용할 수 있는 함수입니다. 
 
@@ -13,21 +13,25 @@ def set_cancel(self, exchange, currency=None, order_id=None, qty=None):
 ```
 
 __A.9.1 exchange (str)__
+
 Bot에서 사용하는 거래소의 명칭을 입력합니다.
 
 
 __A.9.2. currency (str)__
+
 취소할 주문의 가상화폐를 입력합니다. 
 (예: “btc”, “eth”, “xrp”, … )
 
 
 __A.9.3. order_id (str)__
+
 취소할 주문의 order_id를 입력합니다. 
 
 order_id를 입력하여 주문을 취소하는 경우 currency를 함께 입력해야 합니다.
 
 
 __A.9.4. qty (float)__
+
 주문 취소할 수량을 입력합니다. 
 
 수량을 입력하지 않는 경우 입력한 currency 또는 currency의 order_id에 남아 있는 주문 수량 전체를 취소합니다.
@@ -52,6 +56,7 @@ __A.9.4. qty (float)__
 
 
 __cancel #4__
+
 ```python
 set_cancel(exchange=EXCHANGE_NAME, currency=CURRENCY, order_id=ORDER_ID, qty=QUANTITY)
 ```
@@ -66,6 +71,7 @@ set_cancel(exchange=EXCHANGE_NAME, currency=CURRENCY, order_id=ORDER_ID, qty=QUA
 
 
 __cancel #3__
+
 ```python
 set_cancel(exchange=EXCHANGE_NAME, currency=CURRENCY, order_id=ORDER_ID)
 ```
@@ -79,6 +85,7 @@ qty를 입력하지 않는 경우 해당 가상화폐의 order_id를 갖는 주�
 
 
 __cancel #2__
+
 ```python
 set_cancel(exchange=EXCHANGE_NAME, currency=CURRENCY)
 ```
@@ -92,6 +99,7 @@ order_id를 입력하지 않고 가상화폐에 대한 정보만 입력한 경�
 
 
 __cancel #1__
+
 ```python
 set_cancel(exchange=EXCHANGE_NAME)
 ```
