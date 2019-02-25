@@ -1,5 +1,5 @@
 ---
-title: "BotContext의 생성"
+title: "A.1. BotContext의 생성"
 date: 2019-02-25 11:08:34 -0400
 categories: catslab trade botcontext
 ---
@@ -9,8 +9,7 @@ BOT_NAME을 지정하여 아래의 parameter를 입력하여 BotContext를 생�
 
 
 ```python
-BOT_NAME = BotContext(api_key, secret_key, init_budget, exchange, 
-  initialize, run_strategy, make_orders)
+BOT_NAME = BotContext(api_key, secret_key, init_budget, exchange, initialize, run_strategy, make_orders)
 ```
 
 A.1.1. api_key (str)
@@ -50,7 +49,7 @@ dataframe에 접근하는 방식은 우선 BotContext를 생성할 때의 BOT_NA
 
 생성된 dataframe의 형태는 다음과 같습니다.
 
-({{"/assets/A.1. DataFrame ex1.png" | absolute_url}})
+{{"/assets/A.1. DataFrame ex1.png" | absolute_url}}
 
 
 
