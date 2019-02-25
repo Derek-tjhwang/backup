@@ -50,6 +50,8 @@ dataframe에 접근하는 방식은 우선 BotContext를 생성할 때의 BOT_NA
 생성된 dataframe의 형태는 다음과 같습니다.
 
 ![My helpful screenshot]({{"/assets/A.1. DataFrame ex1.png" | absolute_url}})
+![My helpful screenshot]({{"/assets/A.1. DataFrame ex2.png" | absolute_url}})
+![My helpful screenshot]({{"/assets/A.1. DataFrame ex3.png" | absolute_url}})
 
 
 
