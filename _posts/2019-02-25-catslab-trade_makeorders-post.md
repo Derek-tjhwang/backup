@@ -10,19 +10,19 @@ categories: catslab trade
 
 def make_orders(self, is_update, trade_info, update_len, data): 
 
-__A.5.1. is_update (dict)__
+__A.5.1. is_update (dict)__  
 run_strategy 함수의 parameter와 동일합니다.
 
 
-__A.5.2. trade_info (dict)__
+__A.5.2. trade_info (dict)__  
 run_strategy 함수의 parameter와 동일합니다.
 
 
-__A.5.3. update_len (dict)__
+__A.5.3. update_len (dict)__  
 run_strategy 함수의 parameter와 동일합니다.
 
 
-__A.5.4. data (dict)__
+__A.5.4. data (dict)__  
 run_strategy 함수의 parameter와 동일합니다.
 
 
