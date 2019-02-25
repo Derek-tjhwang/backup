@@ -1,8 +1,8 @@
---
+---
 title: "A.5 make_orders 함수의 작성 및 예시"
 date: 2019-02-25 15:44:30
 categories: catslab trade
---
+---
 
 전략에서 사용하는 매수/매도 방식에 따라 매수주문/매도주문/주문취소를 진행합니다. 주문을 생성할 때는 Order 객체를 이용하여 생성하고, 생성한 주문들은 set_order 함수를 이용하여 주문 내역에 저장합니다. 주문 내역에 있는 주문들은 거래소 API를 이용하는 내부 함수를 사용하여 거래소로 전송됩니다. 주문 취소의 경우 set_cancel을 통해 거래소로 전송이 가능합니다.
 
@@ -10,19 +10,19 @@ categories: catslab trade
 
 def make_orders(self, is_update, trade_info, update_len, data): 
 
-A.5.1. is_update (dict)
+__A.5.1. is_update (dict)__
 run_strategy 함수의 parameter와 동일합니다.
 
 
-A.5.2. trade_info (dict)
+__A.5.2. trade_info (dict)__
 run_strategy 함수의 parameter와 동일합니다.
 
 
-A.5.3. update_len (dict)
+__A.5.3. update_len (dict)__
 run_strategy 함수의 parameter와 동일합니다.
 
 
-A.5.4. data (dict)
+__A.5.4. data (dict)__
 run_strategy 함수의 parameter와 동일합니다.
 
 
