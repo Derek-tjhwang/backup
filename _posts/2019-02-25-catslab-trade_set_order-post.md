@@ -1,4 +1,5 @@
 ---
+layout: posts
 title: "A.7 set_order 함수의 사용과 예시"
 date: 2019-02-25 16:20:02 -0400
 categories: catslab trade
