@@ -40,8 +40,9 @@ __A.9.4. qty (float)__
 ![My helpful screenshot]({{"/assets/A.9. set_cancel ex4.png" | absolute_url}})
 ![My helpful screenshot]({{"/assets/A.9. set_cancel ex5.png" | absolute_url}})
 
+
+![My helpful screenshot]({{"/assets/A.9. set_cancel ex7.png" | absolute_url}}){: width="45%" height="45%"}
 ![My helpful screenshot]({{"/assets/A.9. set_cancel ex6.png" | absolute_url}}){: width="40%" height="40%"}
-![My helpful screenshot]({{"/assets/A.9. set_cancel ex7.png" | absolute_url}}){: width="40%" height="40%"}
 
 
 4개의 ‘XRP’ 주문이 들어간 상태에서 거래소의 미체결 주문 현황과 Bot의 order_list에 저장되어 있는 주문들에 대한 정보입니다.
@@ -56,7 +57,7 @@ set_cancel(exchange=EXCHANGE_NAME, currency=CURRENCY, order_id=ORDER_ID, qty=QUA
 입력한 qty가 미체결 수량보다 많은 경우 전체 수량을 취소하고, 적은 경우에는 부분 취소합니다. 
 
 ![My helpful screenshot]({{"/assets/A.9. set_cancel ex8.png" | absolute_url}})
-![My helpful screenshot]({{"/assets/A.9. set_cancel ex9.png" | absolute_url}}){: width="40%" height="40%"}
+![My helpful screenshot]({{"/assets/A.9. set_cancel ex9.png" | absolute_url}}){: width="45%" height="45%"}
 ![My helpful screenshot]({{"/assets/A.9. set_cancel ex10.png" | absolute_url}}){: width="40%" height="40%"}
 
 주문 수량이 1이었던 주문을 0.5 수량만큼을 부분 취소하는 경우 order_list에서 해당 order_id의 remain_qty가 0.5로 남아 있는 것과, 거래소 미체결 주문 현황에 주문잔량이 0.5000으로 저장되어 있는 것을 확인할 수 있습니다.
@@ -71,7 +72,7 @@ qty를 입력하지 않는 경우 해당 가상화폐의 order_id를 갖는 주�
 
 
 ![My helpful screenshot]({{"/assets/A.9. set_cancel ex11.png" | absolute_url}})
-![My helpful screenshot]({{"/assets/A.9. set_cancel ex12.png" | absolute_url}}){: width="40%" height="40%"}
+![My helpful screenshot]({{"/assets/A.9. set_cancel ex12.png" | absolute_url}}){: width="45%" height="45%"}
 ![My helpful screenshot]({{"/assets/A.9. set_cancel ex13.png" | absolute_url}}){: width="40%" height="40%"}
 
 
@@ -96,13 +97,12 @@ set_cancel(exchange=EXCHANGE_NAME)
 거래소의 명칭만 입력한 경우, 입력 받은 거래소에 전송된 주문에 대하여 가상화폐의 종류, 남은 수량과 관계 없이 모든 미체결 주문을 전체를 취소합니다.
 
 ![My helpful screenshot]({{"/assets/A.9. set_cancel ex16.png" | absolute_url}})
-![My helpful screenshot]({{"/assets/A.9. set_cancel ex17.png" | absolute_url}}){: width="40%" height="40%"}
-![My helpful screenshot]({{"/assets/A.9. set_cancel ex18.png" | absolute_url}}){: width="40%" height="40%"}
+![My helpful screenshot]({{"/assets/A.9. set_cancel ex17.png" | absolute_url}})
 
-
+![My helpful screenshot]({{"/assets/A.9. set_cancel ex18.png" | absolute_url}}){: width="45%" height="45%"}
 ![My helpful screenshot]({{"/assets/A.9. set_cancel ex19.png" | absolute_url}}){: width="40%" height="40%"}
-![My helpful screenshot]({{"/assets/A.9. set_cancel ex20.png" | absolute_url}})
 
+![My helpful screenshot]({{"/assets/A.9. set_cancel ex20.png" | absolute_url}}){: width="40%" height="40%"}
 
 ![My helpful screenshot]({{"/assets/A.9. set_cancel ex21.png" | absolute_url}})
 ![My helpful screenshot]({{"/assets/A.9. set_cancel ex22.png" | absolute_url}})
