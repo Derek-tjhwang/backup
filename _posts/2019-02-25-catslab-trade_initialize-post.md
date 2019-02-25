@@ -9,31 +9,31 @@ Initialize 함수의 작성 형식은 다음과 같은 형식을 갖으며,
 ```python
 def initialize(self):
 	self.context[‘trade_info’] = {"EXCHANGE_NAME_1": {
-					“currency”: [], 
-					“interval”: [],
-					“fiat”: FIAT
+					"currency": [], 
+					"interval": [],
+					"fiat": FIAT
 					},
 				"EXCHANGE_NAME_2": {
-					“currency”: [],
-					“interval”: [],
-					“fiat”: FIAT
+					"currency": [],
+					"interval": [],
+					"fiat": FIAT
 					},
 			… , 
 			
-				“safety_setting”: {
-					“profit_target”: {
-					“checked”: bool,
-					“ratio”: RATIO
+				"safety_setting": {
+					"profit_target": {
+					"checked": bool,
+					"ratio": RATIO
 					},
-				“stop_loss”:{
-					“checked”: bool,
-					“ratio”: RATIO
+				"stop_loss":{
+					"checked": bool,
+					"ratio": RATIO
 					},
-				“stop_on_sell”: bool,
-				“trailing_stop”: {
-					“checked”: bool,
-					“dec_ratio”: RATIO,
-					“inc_ratio”: RATIO
+				"stop_on_sell": bool,
+				"trailing_stop": {
+					"checked": bool,
+					"dec_ratio": RATIO,
+					"inc_ratio": RATIO
 					}
 				}
 			}
@@ -60,9 +60,9 @@ self.context['trade_info'] = {"coinone": {
 						}, 
 			"stop_on_sell": True, 
 			"trailing_stop": {
-					“checked”: True, 
-					'dec_ratio': 0.05,
-					'inc_ratio': 0.07
+					"checked": True, 
+					"dec_ratio": 0.05,
+					"inc_ratio": 0.07
 						}
 				}
 			}

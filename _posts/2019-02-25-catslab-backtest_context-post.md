@@ -10,7 +10,11 @@ categories: catslab backtest runbacktest
 결과를 저장할 RESULT_NAME을 지정합니다.
 
 ```python
-RESULT_NAME = BACKTEST_NAME.run(start_date, end_date, exchange, init_budget, slippage_rate)
+RESULT_NAME = BACKTEST_NAME.run(start_date, 
+			end_date, 
+			exchange, 
+			init_budget, 
+			slippage_rate)
 ```
 
 __B.2.1. start_date (datetime.datetime)__  

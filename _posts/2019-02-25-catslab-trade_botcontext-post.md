@@ -11,7 +11,13 @@ BOT_NAME을 지정하여 아래의 parameter를 입력하여 BotContext를 생�
 
 
 ```python
-BOT_NAME = BotContext(api_key, secret_key, init_budget, exchange, initialize, run_strategy, make_orders)
+BOT_NAME = BotContext(api_key, 
+		secret_key, 
+		init_budget, 
+		exchange, 
+		initialize, 
+		run_strategy, 
+		make_orders)
 ```
 
 __A.1.1. api_key (str)__  
